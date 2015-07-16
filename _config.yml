@@ -1,0 +1,14 @@
+# Site settings
+title: Chasing Pictures
+# email:
+description: > # this means to ignore newlines until "baseurl:"
+  Chasing Pictures is an Android app that lets you explore Berlin through they eyes of long lost times.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://chasingpictures.github.io"
+# twitter_username:
+github_username:  ChasingPictures
+show-contact-list: false
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
