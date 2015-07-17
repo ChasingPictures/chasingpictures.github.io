@@ -37,7 +37,7 @@ insertLatestDownloadLink = (releases, title, container, filter = (x) -> x) ->
 
     a = document.createElement('a');
     a.href = app.browserDownload.url;
-    a.innerHTML = 'Download ' + title + ' (' + version + ') (' + sizeMB + ' MB)';
+    a.innerHTML = 'Download ' + title + ' (' + sizeMB + ' MB)';
     container.appendChild a
 
 # Insert a download link to the latest Android app
