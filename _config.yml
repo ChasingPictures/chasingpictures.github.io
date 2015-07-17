@@ -7,6 +7,10 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://chasingpictures.github.io"
 # twitter_username:
 github_username:  ChasingPictures
+github:
+  user: ChasingPictures
+  main_repo: front-end
+
 show-contact-list: false
 
 # Build settings
