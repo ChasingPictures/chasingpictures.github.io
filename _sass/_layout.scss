@@ -102,9 +102,18 @@
 }
 
 .contact-list,
-.social-media-list {
+.social-media-list,
+.inline-list {
     list-style: none;
     margin-left: 0;
+}
+
+.inline-list {
+    display: inline;
+}
+
+.inline-list li {
+    display: inline;
 }
 
 .footer-col-wrapper {

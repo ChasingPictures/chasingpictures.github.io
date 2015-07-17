@@ -1,0 +1,48 @@
+---
+layout: page
+title: About
+permalink: /about/
+
+team:
+-
+  name: Jakob
+  github: jakobw
+-
+  name: Miri
+  github: miriwie
+-
+  name: Katharina
+-
+  name: Simon
+  github: kaltsimon
+  twitter: coolbox4life
+---
+
+<h3 class="post-title">The Team</h3>
+We are:
+<ul>
+    {% for person in page.team %}
+    <li>
+        {{ person.name }}
+        <ul class="inline-list">
+          {% if person.github %}
+          <li>
+            <a href="https://github.com/{{ person.github }}">
+              {% include github-logo.html %}
+              <span class="username">{{ person.github }}</span>
+            </a>
+          </li>
+          {% endif %}
+
+            {% if person.twitter %}
+            <li>
+              <a href="https://twitter.com/{{ person.twitter }}">
+                {% include twitter-logo.html %}
+                <span class="username">{{ person.twitter }}</span>
+              </a>
+            </li>
+            {% endif %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>
