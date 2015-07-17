@@ -1,0 +1,3 @@
+---
+---
+window.downloadLink 'download-link'
