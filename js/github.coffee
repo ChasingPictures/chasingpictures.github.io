@@ -30,7 +30,7 @@ insertLatestDownloadLink = (releases, title, container) ->
     version = release.tagName
 
     a = document.createElement('a');
-    a.href = app.browserDownloadUrl;
+    a.href = app.browserDownload.url;
     a.innerHTML = 'Download ' + title + ' (' + version + ') (' + sizeMB + ' MB)';
     container.appendChild a
 
